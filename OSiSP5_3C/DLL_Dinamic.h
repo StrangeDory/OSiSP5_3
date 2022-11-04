@@ -1,11 +1,11 @@
 #pragma once
-#include <processthreadsapi.h>
-#include <libloaderapi.h>
+#include <windows.h>
 #include <iostream>
 class DLL_Dinamic
 {
 	typedef void __cdecl TReplaceString(DWORD pid, const char* src, const char* res);
 
+public:
 	void ReplaceDinamic(const char* src, const char* res)
 	{
 		DWORD pid = GetCurrentProcessId();

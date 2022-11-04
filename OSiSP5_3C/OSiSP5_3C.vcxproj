@@ -148,6 +148,7 @@
     <ClInclude Include="DLL_Dinamic.h" />
     <ClInclude Include="DLL_Inject.h" />
     <ClInclude Include="DLL_Static.h" />
+    <ClInclude Include="OSiSP5_3C.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
